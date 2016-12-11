@@ -11,7 +11,19 @@
 	margin-bottom: 2px;
 	background: #FFC04C;
 }
-
-.qa-tag-link{
-	margin-bottom: 0px !important;
+.c-tag-link{
+	background: #e67e22;
+	color: #fff !important;
+	display: inline-block;
+	font-family: "Ubuntu", "Helvetica", "Arial", "FreeSans", sans-serif;
+	font-size: 11px;
+	line-height: 1.5em;
+	padding: 2px 8px;
+	text-decoration: none !important;
+	transition: all 0.75s ease-in-out 0s;
+}
+.c-tag-link:hover {
+	background: #f39c12;
+	color: #fff !important;
+	transition: all 0.25s ease-in-out 0s;
 }
