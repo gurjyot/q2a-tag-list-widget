@@ -28,3 +28,8 @@ if (!defined('QA_VERSION')) exit;
 
 
 qa_register_plugin_module('widget', 'qa-tag-list.php', 'qa_tag_list', 'Tag List');
+
+qa_register_plugin_layer(
+  'qa-tag-list-layer.php', // PHP file containing layer
+  'Tag List Layer' // human-readable name of layer
+);
