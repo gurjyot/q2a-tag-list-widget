@@ -1,17 +1,17 @@
-.c-tag-list{
+.tagl-tag-list{
 	line-height: 11px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-.c-tag{
+.tagl-tag{
 	/*border: 1px solid black;*/
 	display: inline-block;
 	padding-right: 5px;
 	margin-bottom: 2px;
 	background: #FFC04C;
 }
-.c-tag-link{
+.tagl-tag-link{
 	background: #e67e22;
 	color: #fff !important;
 	display: inline-block;
@@ -22,7 +22,7 @@
 	text-decoration: none !important;
 	transition: all 0.75s ease-in-out 0s;
 }
-.c-tag-link:hover {
+.tagl-tag-link:hover {
 	background: #f39c12;
 	color: #fff !important;
 	transition: all 0.25s ease-in-out 0s;
