@@ -87,9 +87,8 @@ class qa_tag_list
 		$themeobject->output( '<ul class="tagl-tag-list">' );
 		foreach ($populartags as $tag => $count)
 		{
-			$themeobject->output( '<li class="tagl-tag">' );
-			$themeobject->output( '<a href="' . qa_path_html('tag/'.$tag).'" class="tagl-tag-link">' . qa_html($tag) . '</a>' );
-			$themeobject->output($count);
+			$themeobject->output( '<li class="qa-q-item-tag-item">' );
+			$themeobject->output( '<a href="' . qa_path_html('tag/'.$tag).'" class="qa-tag-link">' . qa_html($tag) . '</a>' );
 			$themeobject->output( '</li>' );
 		}
 		$themeobject->output( '</ul>' );
